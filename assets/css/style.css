@@ -1,3 +1,38 @@
-html, body {
-    font-family: 'Nunito', sans-serif;
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Nunito", sans-serif;
+  color: darkslategray;
+}
+
+header {
+  display: flex;
+  height: 10rem;
+
+  font-weight: bold;
+}
+
+header img {
+  height: 100%;
+  width: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
